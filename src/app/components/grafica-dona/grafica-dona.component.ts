@@ -8,7 +8,7 @@ import { MultiDataSet, Label } from 'ng2-charts';
   templateUrl: './grafica-dona.component.html',
   styles: []
 })
-export class GraficaDonaComponent implements OnInit, AfterContentInit {
+export class GraficaDonaComponent implements OnInit {
    // Doughnut
    @Input() objGrafico : any;
   
